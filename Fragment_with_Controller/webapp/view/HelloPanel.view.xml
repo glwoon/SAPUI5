@@ -1,0 +1,27 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" controllerName="sap.ui.demo.wt.controller.HelloPanel">
+	<!--Panel headerText="{i18n>helloPanelTitle}" class="sapUiResponsiveMargin" width="auto" id="page">
+		<content>
+			<Button text="{i18n>openDialogButtonText}" press="onOpenDialog" class="sapUiSmallMarginEnd"/>
+			<Button text="{i18n>showHelloButtonText}" press="onShowHello" class="myCustomButton"/>
+			<Input value="{/recipient/name}" valueLiveUpdate="true" width="60%"/>
+			<FormattedText htmlText="Hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+			<core:Fragment fragmentName="sap.ui.demo.wt.view.HelloWorld" type="XML"/>
+		</content>
+	</Panel-->
+	<Panel headerText="{i18n>helloPanelTitle}" class="sapUiResponsiveMargin" width="auto">
+		<content>
+			<Button text="Show Fragment" press="onOpenDialog" class="sapUiSmallMarginEnd"/>
+			<Button text="{i18n>showHelloButtonText}" press="onShowHello" class="myCustomButton"/>
+			<Input value="{/recipient/name}" valueLiveUpdate="true" width="60%"/>
+		</content>
+	</Panel>
+	<IconTabBar>
+		<items>
+			<IconTabFilter text="Orders" id="tab">
+				<content>
+				<Text text="No text specified" id="__text0"/>
+				</content>
+			</IconTabFilter>
+			</items>
+	</IconTabBar>
+</mvc:View>

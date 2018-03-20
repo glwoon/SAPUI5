@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<HBox width="100%" id="__hbox0">
+	    <items>
+	        <Input xmlns="sap.m" id="inputTest"/>
+	        <Button text="Show Text" width="100px" id="__button0" press="onShowText"/>
+	    </items>
+	</HBox>
+	<Label width="100%" id="labelTest" text=""/>
+</core:FragmentDefinition>
